@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  column-gap: 1.4rem;
+  row-gap: 5.6rem;
+}
+.grid-2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3--col {
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(min-content, max-content);
+}
+.grid-4--col {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-2--row {
+  grid-template-rows: repeat(2, 1fr);
+}
+header {
+  height: 100vh;
+}
+.navigation {
+  height: 16vh;
+  background-color: bisque;
+}
+.logo {
+  padding-top: 2.2rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+.img-width {
+  width: 12vh;
+}
+.logo_text {
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  font-family: "Edu TAS Beginner", cursive;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigations {
+  display: flex;
+  margin-left: auto;
+  margin-right: 5.5rem;
+  font-size: 2.2rem;
+  column-gap: 5.5rem;
+  text-decoration: none;
+}
+.category_name {
+  font-size: 3.3rem;
+  font-family: "Kantumruy Pro", sans-serif;
+  margin-bottom: 2.2rem;
+}
+.margintop55 {
+  margin-top: 5.5rem;
+}
+.marginleft55 {
+  margin-left: 5.5rem;
+}
+.ion-icon {
+  width: 3.3rem;
+  height: 3.3rem;
+  display: inline-block;
+  color: #009879;
+}
+.clinic_first_grid {
+  display: flex;
+  flex-direction: column;
+}
+.flex_each {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  margin-top: 5.5rem;
+}
+.data_text {
+  padding-left: 3.3rem;
+}
+.overhid {
+  overflow: hidden;
+}
+.display_flexgap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.gallery {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+  padding-top: 1.6rem;
+}
+.gallery:hover {
+  transform: scale(1.1);
+}
+.parent_gallery {
+  width: 100%;
+  overflow: hidden;
+}
+.clinic_second_grid {
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  padding-bottom: 1.1rem;
+  padding-top: 1.1rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  margin-top: 5.5rem;
+}
+.clinic_first_grid .flex_each:hover {
+  padding-left: 1.5rem;
+}
+.section_department {
+  height: 100vh;
+  margin-top: 5.5rem;
+}
+.adepart {
+  display: flex;
+  flex-direction: column;
+}
+.depart_name {
+  font-size: 2.3rem;
+}
+.marginleft3 {
+  margin-left: 3rem;
+}

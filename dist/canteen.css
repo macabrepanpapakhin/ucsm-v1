@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+header {
+  overflow: hidden;
+  height: 100vh;
+  background-image: linear-gradient(
+      to left top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/cafeteria-g11079a08d_1920.jpg");
+  background-size: cover;
+}
+.logo {
+  margin-top: 2rem;
+  width: 7rem;
+  height: 8rem;
+}
+.left_logo {
+  margin-left: 3rem;
+  display: flex;
+}
+.bitText {
+  margin-top: 2rem;
+  font-size: 4.4rem;
+  color: white;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.smallText {
+  font-size: 2.2rem;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+.left_logo_Text {
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  height: 12rem;
+}
+.grid {
+  display: grid;
+}
+.grid-2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+.welcom_section {
+  margin-top: 3.2rem;
+}
+.first-grid {
+  display: flex;
+  flex-direction: column;
+}
+.bigText {
+  font-size: 6.6rem;
+  font-family: "Edu TAS Beginner", cursive;
+  color: #fff;
+  display: block;
+}
+.welcome_text_eachLine {
+  display: flex;
+  align-items: baseline;
+  margin-top: 3.3rem;
+}
+.bigTextfollow {
+  font-size: 2.6rem;
+  color: #fff;
+}
+.second-grid {
+  border-left: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.rate_link {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.mf {
+  display: flex;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.most_rated_canteen {
+  color: #fff;
+}
+.all_canteen {
+}
+.secondary_heading {
+  font-size: 2.1rem;
+  margin-top: 3.2rem;
+  font-family: "Barlow", sans-serif;
+}
+.margintop-7 {
+  margin-top: 10rem;
+}
+.margintop-5 {
+  margin-top: 5rem;
+}
+.canteen_name {
+  font-size: 3.2rem;
+  color: #009879;
+}
+.normal_text {
+  font-size: 2.2rem;
+}
+
+.canteen_each_data {
+  margin-top: 10rem;
+}
+.availbeText {
+  font-size: 2.5rem;
+}
+.hat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20%;
+  line-height: 2.2;
+  overflow-y: scroll;
+}
+.italic {
+  font-style: italic;
+  display: inline;
+}
+.margintop-3 {
+  margin-top: 3rem;
+}
+.canteen_review_random {
+  margin-left: 20%;
+  line-height: 2.2;
+  font-size: 1.8rem;
+}
+.each-canteen {
+  margin-top: 10rem;
+}
