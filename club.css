@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+header {
+  overflow: hidden;
+  height: 100vh;
+  background-image: linear-gradient(
+      to left top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/img/team1.jpg");
+  background-size: cover;
+}
+.navigation {
+  padding-left: 5.5rem;
+  padding-top: 3.3rem;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 7rem;
+  height: 7rem;
+}
+.logo_big {
+  font-size: 4.5rem;
+  font-family: "Edu TAS Beginner", cursive;
+  padding-left: 1.8rem;
+  color: #fff;
+}
+.logo_normal {
+  font-size: 2.3rem;
+  padding-left: 1.8rem;
+  color: #fff;
+}
+.right_position_logo {
+  margin-left: auto;
+  color: white;
+  margin-right: 5.5rem;
+}
+.ion-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.contact_email_logo {
+  font-size: 1.4rem;
+  padding-left: 2.2rem;
+  color: #fff;
+}
+.display-flex {
+  display: flex;
+  margin-top: 3.3rem;
+  align-content: center;
+}
+.container {
+  width: 120rem;
+  margin: 5rem auto;
+}
+.grid {
+  display: grid;
+}
+.grid-2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.first_grid {
+  display: flex;
+  flex-direction: column;
+}
+.seconday_heading {
+  font-size: 3.2rem;
+  color: #fff;
+}
+.first_grid ul li {
+  margin-top: 4.2rem;
+  margin-left: 4.2rem;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+.first_grid ul li:hover {
+  margin-left: 5.2rem;
+}
+.second_grid {
+  border-left: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.3rem;
+}
+.small-profile {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.profile_testimonial {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 1.9rem;
+  margin-top: 3.3rem;
+  width: 30rem;
+}
+.profile_author {
+  color: #ccc;
+  font-size: 1.4rem;
+  margin-top: 2.3rem;
+}
+.featured_clubs {
+  background-color: #ccc;
+  height: 38vh;
+}
+.featured_by_title {
+  font-size: 3.3rem;
+  font-family: "Edu TAS Beginner", cursive;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.club_logo {
+  padding-top: 1.2rem;
+  width: 100%;
+  height: 13rem;
+}
+
+.club_title {
+  font-size: 2.2rem;
+  color: #555;
+}
+.paddtopabit {
+  padding-top: 0.6rem;
+}
+
+.middle {
+  justify-content: space-around;
+}
+.clubs_details {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.marginleft {
+  margin-left: 5.5rem;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+.flex-col {
+  flex-direction: column;
+  row-gap: 2.2rem;
+}
+
+.second_grid_club {
+  display: flex;
+  flex-direction: column;
+}
+.club_prompt {
+  font-size: 1.8rem;
+  padding-top: 5.5rem;
+  line-height: 1.9;
+  padding-left: 3.3rem;
+}
+.block1 {
+  display: inline;
+}
+.club_contact {
+  display: flex;
+  margin-top: 5.5rem;
+  padding-left: 3.3rem;
+  row-gap: 2.2rem;
+  flex-direction: column;
+}
+.margintopabit {
+  margin-top: 2.2rem;
+}

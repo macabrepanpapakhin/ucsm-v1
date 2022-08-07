@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hello</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="/src/general.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <section class="section_search background_search grid grid-2--col">
+      <div class="left_grid">
+        <form action="#" class="search-bar">
+          <button>
+            <ion-icon class="abc" name="search-outline"></ion-icon>
+          </button>
+          <input
+            type="text"
+            placeholder="Search Person"
+            name="a"
+            id="scrollsearch"
+          />
+        </form>
+        <div class="main_quote">
+          <p>
+            The mission of the UCSM is to contribute to society through
+            producing high-quality graduates and applied research outcomes.
+          </p>
+        </div>
+        <img src="/img/leftquote.png" class="leftquote" />
+        <img src="/img/rightquot.png" class="rightquote" />
+      </div>
+      <div class="reactor_quote_section">
+        <div class="reactor_quote">
+          <h3 class="reactor_message_head">Reactor Message</h3>
+          <p class="message_body">
+            UCSM's main offerings are five-year bachelor's programs in computer
+            science and computer technology. It also offers master's degree
+            programs in applied science and in information science.[1] The areas
+            of study include artificial intelligence, bioinformatics, computer
+            architecture, control applications, database systems, digital signal
+            processing, image processing, Internet technologies, network
+            security, operating systems, parallel and distributed computing, and
+            software engineering.[2]
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 
+    <section class="whole_page_video">
+      <div class="video_background">
+        <video id="myvideo" loop="3" autoplay muted>
+          <source
+            type="video/mp4"
+            src="/video/UCSM Fresher Welcome 2019 Promo Video.mp4"
+          />
+        </video>
+        <div class="upper_case">
+          <div class="prompt_text">
+            <p>UCSM INTRO</p>
+          </div>
+          <button class="border-button">
+            <ion-icon
+              class="ion-icon videoPlayButton"
+              id="muteicon"
+              name="volume-mute-outline"
+            ></ion-icon>
+            <ion-icon
+              id="sound-on-icon"
+              class="ion-icon ion-icon-remove videoPlayButton"
+              name="mic-outline"
+            ></ion-icon
+            >`
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="section_search_data">
+      <div class="motto">
+        <img src="/img/ucsm-removebg.png" class="logo" />
+        <p>မြန်မှန်တွက်ချက် တိုင်းပြည်တွက်</p>
+        <ion-icon name="help-outline" class="ion-icon1"></ion-icon>
+      </div>
+      <div class="search_data_bar1">
+        <ion-icon class="icon_within" name="search-outline"></ion-icon>
+        <form action="#" class="search_bar_main">
+          <input type="text" placeholder="Search Person" name="q" id="s-i" />
+        </form>
+        <ion-icon
+          class="icon_within ion-icon-remove"
+          name="close-circle-outline"
+        ></ion-icon>
+        <div class="below_search_bar ion-icon-remove">
+          <p id="resultStatus">3 result founds</p>
+        </div>
+        <div class="below_search_bar rightfar">
+          <div class="loading_circle"></div>
+        </div>
+      </div>
+
+      <section class="section_show_data"></section>
+    </section>
+  </body>
+
+  <script type="module" src="./search.js"></script>
+  <script src="searchpersonbundle.js"></script>
+</html>
